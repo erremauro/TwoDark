@@ -1,0 +1,48 @@
+{
+  "name": "twodark",
+  "version": "0.9.0",
+  "description": "It's like OneDark for Atom, but it's called TwoDark and works for SublimeText",
+  "main": "build.js",
+  "scripts": {
+    "start": "gulp task-list",
+    "build": "guild default",
+    "test": "./node_modules/.bin/_mocha ./tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erremauro/TwoDark.git"
+  },
+  "keywords": [
+    "theme",
+    "sublime",
+    "text",
+    "atom",
+    "onedark",
+    "spacegray",
+    "editor",
+    "packagecontrol"
+  ],
+  "author": "Roberto Mauro <erremauro@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erremauro/TwoDark/issues"
+  },
+  "homepage": "https://github.com/erremauro/TwoDark#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "cheerio": "^0.20.0",
+    "event-stream": "^3.3.4",
+    "fs-extra": "^0.30.0",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgmin": "^1.2.2",
+    "gulp-task-list": "git+https://github.com/erremauro/gulp-task-list.git",
+    "gulp-watch": "^4.3.8",
+    "map-stream": "0.0.6",
+    "mocha": "^2.5.3",
+    "q": "^1.4.1",
+    "svg2png": "^3.0.0"
+  }
+}

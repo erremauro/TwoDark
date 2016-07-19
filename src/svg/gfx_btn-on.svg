@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26px" height="24px"
+	 viewBox="0 0 26 24" enable-background="new 0 0 26 24" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="55" height="136" bottomLeftOrigin="true" x="-13" y="-125"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="btn">
+	<g id="btn_1_">
+	</g>
+	<g id="btn-hover">
+	</g>
+	<g id="btn-pressed">
+	</g>
+	<g id="btn-on">
+		<g>
+			<path fill="#528BFF" d="M4.997,22.5C3.068,22.5,1.5,20.93,1.5,19V5c0-1.93,1.568-3.5,3.497-3.5h16.006
+				C22.932,1.5,24.5,3.07,24.5,5v14c0,1.93-1.568,3.5-3.497,3.5H4.997z"/>
+			<path fill="#181A1F" d="M21.003,2C22.655,2,24,3.346,24,5v14c0,1.654-1.345,3-2.997,3H4.997C3.345,22,2,20.654,2,19V5
+				c0-1.654,1.345-3,2.997-3H21.003 M21.003,1H4.997C2.79,1,1,2.791,1,5v14c0,2.209,1.79,4,3.997,4h16.005C23.21,23,25,21.209,25,19
+				V5C25,2.791,23.21,1,21.003,1L21.003,1z"/>
+		</g>
+	</g>
+</g>
+<g id="btn-group-on">
+</g>
+<g id="btn-group-off">
+</g>
+</svg>
