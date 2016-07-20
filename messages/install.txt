@@ -1,0 +1,40 @@
+In my life I took many forms and I've seen many places.
+
+I've traveled through time and space just to meet you at the perfect time, in the perfect place. I'm install.txt
+
+How to Activate
+===============
+
+To activate the UI Theme and Color Scheme, modify you user preferences by selecting: `Sublime Text` -> Preferences -> Settings - User
+
+{
+  "theme": "TwoDark.sublime-theme",
+  "color_scheme": "Packages/Theme - TwoDark/TwoDark.tmTheme",
+}
+
+Restart Sublime Text after activating the theme.
+
+Extra Icons
+-----------
+
+TwoDark ships with beautiful alternative icons for Sublime Text.
+
+The original icons were designed by [Jannik Siebert](https://dribbble.com/shots/1827862-Yosemite-Sublime-Text-Icon) for the Spacegray theme. I've just updated the icon color scheme to match it with the UI.
+
+Extra icons can be found in the `extra` folder inside the theme package. To view the content of the package select `Sublime Text` -> Preferences -> Browse Packages... and open `Theme - TwoDark`. If the goblin didn't touch anything, you should find your `extra` folder in there.
+
+## Change OS X icon
+
+Open your preferred `*.icns` icon. Select `File` -> Get Info
+From the newly opened window, selected the icon in the upper left and press CMD + C to copy. 
+
+Go to your Applications folder, select Sublime Text and then `File` -> Get Info. Select the Sublime Text icon in the upper left and press CMD + V to paste the icon.
+
+## Change Windows icon
+
+To change the Shortcut icon on Windows, Select the Sublime Text shortcut, right click and select "Properties".
+
+Go to the `Shortcut` tab and click the `Change Icon...` button at the bottom.
+
+Click `Browse...` and select your preferred `.ico` icons.
+

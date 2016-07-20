@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Sublime Text</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.245 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="75.8051658%" x2="50%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#101216" offset="0%"></stop>
+            <stop stop-color="#15181D" offset="24.1948342%"></stop>
+            <stop stop-color="#1B1F27" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0001132%" y1="100%" x2="50.0001132%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#181A1F" offset="0%"></stop>
+            <stop stop-color="#191B22" offset="62.703125%"></stop>
+            <stop stop-color="#0C0D10" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="17.538675%" y1="12.3286298%" x2="83.993756%" y2="85.2316689%" id="linearGradient-4">
+            <stop stop-color="#F2F4F7" offset="0%"></stop>
+            <stop stop-color="#DEE3EC" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.245 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.56 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Icon-Templates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sublime-Text">
+            <g id="Icon" transform="translate(109.000000, 39.000000)">
+                <g id="Main" transform="translate(403.000000, 469.500000) rotate(-9.000000) translate(-403.000000, -469.500000) translate(62.000000, 49.000000)">
+                    <rect id="Background---Main" fill="#282C34" filter="url(#filter-1)" x="-8.52651283e-14" y="-3.83693077e-12" width="682" height="841"></rect>
+                    <g id="Rest" transform="translate(-0.000000, 80.000000)">
+                        <rect id="Bottom-Bar" fill="url(#linearGradient-2)" x="2.55795385e-13" y="681" width="682" height="80"></rect>
+                        <rect id="Scroll-Bar" fill="#373C47" x="662" y="-1.05160325e-12" width="20" height="681"></rect>
+                        <g id="Map" transform="translate(542.000000, -0.000000)">
+                            <rect id="Background" fill-opacity="0.15" fill="#C0D4FC" x="9.09494702e-13" y="-9.9475983e-13" width="140" height="180"></rect>
+                            <g id="Map-Code" opacity="0.9" transform="translate(0.359065, -0.000000)">
+                                <rect id="Tab-Name-4" fill="#61AFEF" x="9.9475983e-14" y="-3.24584803e-12" width="16.0831169" height="5.15117949"></rect>
+                                <rect id="Tab-Name-4" fill="#98C379" x="18.6564156" y="-2.81952239e-12" width="9.64987013" height="5.15117949"></rect>
+                                <rect id="Tab-Name-7" fill="#E5C07B" x="15.4397922" y="25.112" width="16.0831169" height="5.15117949"></rect>
+                                <rect id="Tab-Name-7" fill="#E5C07B" x="54.3609351" y="33.4826667" width="16.0831169" height="5.15117949"></rect>
+                                <rect id="Tab-Name-7" fill="#61AFEF" x="17.0481039" y="33.4826667" width="21.873039" height="5.15117949"></rect>
+                                <rect id="Tab-Name-7" fill="#ABB2BF" x="41.4944416" y="33.4826667" width="10.2931948" height="5.15117949"></rect>
+                                <rect id="Tab-Name-5" fill="#5C6370" x="-4.54747351e-13" y="16.7413333" width="35.3828571" height="5.15117949"></rect>
+                                <rect id="Tab-Name-4" fill="#ABB2BF" x="-2.27373675e-13" y="8.37066667" width="12.8664935" height="5.15117949"></rect>
+                                <rect id="Tab-Name-4" fill="#ABB2BF" x="15.4397922" y="8.37066667" width="6.43324675" height="5.15117949"></rect>
+                                <rect id="Tab-Name-4" fill="#98C379" x="24.4463377" y="8.37066667" width="12.8664935" height="5.15117949"></rect>
+                                <rect id="Tab-Name-6" fill="#C678DD" x="2.27373675e-13" y="25.112" width="12.8664935" height="5.15117949"></rect>
+                                <rect id="Tab-Name-8" fill="#C678DD" x="6.43324675" y="33.4826667" width="8.04155844" height="5.15117949"></rect>
+                                <rect id="Tab-Name-9" fill="#ABB2BF" x="17.0481039" y="58.5946667" width="12.8664935" height="5.15117949"></rect>
+                                <rect id="Tab-Name-9" fill="#ABB2BF" x="29.9145974" y="41.8533333" width="6.43324675" height="5.15117949"></rect>
+                                <rect id="Tab-Name-9" fill="#ABB2BF" x="10.6148571" y="66.9653333" width="6.43324675" height="5.15117949"></rect>
+                                <rect id="Tab-Name-9" fill="#C38875" x="38.9211429" y="41.8533333" width="16.0831169" height="5.15117949"></rect>
+                                <rect id="Tab-Name-9" fill="#C38875" x="29.9145974" y="50.224" width="5.1465974" height="5.15117949"></rect>
+                                <rect id="Tab-Name-9" fill="#98C379" x="45.3543896" y="50.224" width="5.1465974" height="5.15117949"></rect>
+                                <rect id="Tab-Name-9" fill="#C3727A" x="14.4748052" y="50.224" width="12.8664935" height="5.15117949"></rect>
+                                <rect id="Tab-Name-9" fill="#ABB2BF" x="37.6344935" y="50.224" width="5.1465974" height="5.15117949"></rect>
+                                <rect id="Tab-Name-9" fill="#C678DD" x="6.43324675" y="58.5946667" width="8.04155844" height="5.15117949"></rect>
+                                <rect id="Tab-Name-9" fill="#C678DD" x="-2.27373675e-13" y="66.9653333" width="8.04155844" height="5.15117949"></rect>
+                            </g>
+                        </g>
+                        <rect id="Status" fill="#373C48" x="20" y="705" width="120" height="32"></rect>
+                        <rect id="Language" fill="#373C48" x="542" y="705" width="120" height="32"></rect>
+                        <rect id="Language" fill="#373C48" x="362" y="705" width="160" height="32"></rect>
+                    </g>
+                    <g id="Top-Bar" transform="translate(-0.000000, -0.000000)">
+                        <rect id="Background" fill="url(#linearGradient-3)" x="-2.98427949e-13" y="-8.24229573e-13" width="682" height="80"></rect>
+                        <rect id="Tab" fill="#282C34" x="-2.98427949e-13" y="-8.24229573e-13" width="248" height="80"></rect>
+                        <rect id="Selected" fill="#98A5B4" x="21" y="24" width="120" height="32"></rect>
+                        <rect id="Unselected" fill="#98A5B4" x="269" y="24" width="120" height="32"></rect>
+                    </g>
+                    <g id="Text" transform="translate(20.000000, 100.000000)">
+                        <g id="Line-Numbers" transform="translate(-0.000000, -0.000000)" fill="#5C6370">
+                            <rect id="Tab-Name-9" x="8" y="-5.68434189e-14" width="32" height="32"></rect>
+                            <rect id="Tab-Name-8" x="8" y="52" width="32" height="32"></rect>
+                            <rect id="Tab-Name-7" x="8" y="104" width="32" height="32"></rect>
+                            <rect id="Tab-Name-6" x="8" y="156" width="32" height="32"></rect>
+                            <rect id="Tab-Name-5" x="8" y="208" width="32" height="32"></rect>
+                            <rect id="Tab-Name-4" x="8" y="260" width="32" height="32"></rect>
+                            <rect id="Tab-Name-11" x="8" y="312" width="32" height="32"></rect>
+                            <rect id="Tab-Name-3" x="8" y="364" width="32" height="32"></rect>
+                            <rect id="Tab-Name-10" x="8" y="416" width="32" height="32"></rect>
+                            <rect id="Tab-Name-12" x="-8.52651283e-14" y="468" width="40" height="32"></rect>
+                        </g>
+                        <g id="Code" opacity="0.9" transform="translate(72.000000, -0.000000)">
+                            <rect id="Tab-Name-4" fill="#61AFEF" x="-8.52651283e-14" y="-1.47792889e-12" width="100" height="32"></rect>
+                            <rect id="Tab-Name-4" fill="#98C379" x="116" y="-1.8189894e-12" width="60" height="32"></rect>
+                            <rect id="Tab-Name-7" fill="#E5C07B" x="96" y="156" width="100" height="32"></rect>
+                            <rect id="Tab-Name-7" fill="#E5C07B" x="338" y="208" width="100" height="32"></rect>
+                            <rect id="Tab-Name-7" fill="#61AFEF" x="106" y="208" width="136" height="32"></rect>
+                            <rect id="Tab-Name-7" fill="#ABB2BF" x="258" y="208" width="64" height="32"></rect>
+                            <rect id="Tab-Name-5" fill="#5C6370" x="-7.67386155e-13" y="104" width="220" height="32"></rect>
+                            <rect id="Tab-Name-4" fill="#ABB2BF" x="-1.42108547e-13" y="52" width="80" height="32"></rect>
+                            <rect id="Tab-Name-4" fill="#ABB2BF" x="96" y="52" width="40" height="32"></rect>
+                            <rect id="Tab-Name-4" fill="#98C379" x="152" y="52" width="80" height="32"></rect>
+                            <rect id="Tab-Name-6" fill="#C678DD" x="-5.96855898e-13" y="156" width="80" height="32"></rect>
+                            <rect id="Tab-Name-8" fill="#C678DD" x="40" y="208" width="50" height="32"></rect>
+                            <rect id="Tab-Name-9" fill="#ABB2BF" x="106" y="364" width="80" height="32"></rect>
+                            <rect id="Tab-Name-9" fill="#ABB2BF" x="186" y="260" width="40" height="32"></rect>
+                            <rect id="Tab-Name-9" fill="#ABB2BF" x="66" y="416" width="40" height="32"></rect>
+                            <rect id="Tab-Name-9" fill="#D19A66" x="242" y="260" width="100" height="32"></rect>
+                            <rect id="Tab-Name-9" fill="#D19A66" x="186" y="312" width="32" height="32"></rect>
+                            <rect id="Tab-Name-9" fill="#98C379" x="282" y="312" width="32" height="32"></rect>
+                            <rect id="Tab-Name-9" fill="#E06C75" x="90" y="312" width="80" height="32"></rect>
+                            <rect id="Tab-Name-9" fill="#ABB2BF" x="234" y="312" width="32" height="32"></rect>
+                            <rect id="Tab-Name-9" fill="#C678DD" x="40" y="364" width="50" height="32"></rect>
+                            <rect id="Tab-Name-9" fill="#C678DD" x="-1.30739863e-12" y="416" width="50" height="32"></rect>
+                        </g>
+                    </g>
+                </g>
+                <g id="Button" transform="translate(655.435655, 658.123117) rotate(-9.000000) translate(-655.435655, -658.123117) translate(431.435655, 426.123117)">
+                    <path d="M448,240 C448,116.288216 347.711784,16 224,16 C100.288216,16 -1.70530257e-13,116.288216 -1.70530257e-13,240 C-1.70530257e-13,363.711784 100.288216,464 224,464 C347.711784,464 448,363.711784 448,240 L448,240 Z" id="Background---Button" fill="url(#linearGradient-4)" filter="url(#filter-5)"></path>
+                    <text id="S" fill="white" filter="url(#filter-6)" font-family="SourceCodePro-Semibold, Source Code Pro" font-size="360" font-weight="500">
+                        <tspan x="116" y="353.876883" fill="#485266">S</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
