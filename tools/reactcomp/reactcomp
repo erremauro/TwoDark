@@ -1,0 +1,228 @@
+#!/usr/bin/env node
+var path = require( 'path' )
+var colors = require('gulp-util').colors
+var fs = require('fs-extra')
+var argv = require('yargs')
+  .usage('Usage: $0 <NAME> [DESCRIPTION]')
+  .demand(1)
+  .argv
+
+var TMP = './.tmp'
+var REACT_DIR = process.env['REACT_DIR'] || './assets/js/src/'
+var COMPONENT_ROOT = path.join( REACT_DIR, 'components' )
+
+/**
+* Log error styled `message` to console.
+* @param {string} message
+*/
+function logError( message ) {
+  console.log('😱  ' + colors.red( message ) ) 
+}
+
+/**
+ * Check if `str` contains `txt`.
+ * @param {string} str - A test string
+ * @param {string} txt - A text pattern to search for.
+ * @returns True if `str` contains `txt` otherwise false.
+ */
+function contains( str, txt ) {
+  return str.indexOf( txt ) !== -1
+}
+
+/**
+ * Remove temporary directories.
+ */
+function clean() {
+  return fs.removeSync(TMP)
+}
+
+/**
+ * This callback is called as result from skeleton file
+ * placeholder replacement.
+ * @callback injectInfoCallback
+ * @param {?Error} err - Error object
+ * @param {string} file - Original filename
+ * @param {string} content - file content
+ */
+
+/**
+ * Replace all name and description placeholders
+ * from skeleton file with given properties.
+ * @param {string} name - Component name
+ * @param {?string} [desc] - Component description
+ * @callback {injectInfoCallback} cb - return replaced content of files
+ */
+function injectInfo( name, desc, file, cb ) {
+  fs.readFile( file, function( err, data ) {
+    var result = data
+      .toString()
+      .replace(/(\$ComponentName)/g, name )
+      .replace(/(\$ComponentDescription)/g, desc )
+    cb( null, file, result )
+  })
+}
+
+/**
+ * This callback is called as result from saving a component.
+ * @callback saveCallback
+ * @param {?Error} err - Error object
+ * @param {string} dest - New file path
+ */
+
+/**
+ * Rename skeleton file as component file.
+ * @param {string} name - Component name.
+ * @param {string} file - Source file.
+ * @callback {saveCallback} cb - Return new file path.
+ */
+function saveComponent( name, file, cb ) {
+  if ( !name ) { cb( 'Cannot save component without name' ) }
+  if ( !file ) { cb( 'Cannot save component without file' ) }
+  var filename = path.basename( file )
+  var compFileName = ''
+  if ( 
+    contains( filename, 'component' ) && 
+    contains( filename, '.spec.js' )
+  ) {
+    compFileName = name + '.spec.js'
+  }
+  else if (
+    contains( filename, 'component' ) && 
+    contains( filename, '.js' )
+  ) {
+    compFileName = name + '.js'
+  }
+  else if (
+    contains( filename, 'component' ) && 
+    contains( filename, '.scss' )
+  ) {
+    compFileName = name + '.scss'
+  }
+  else {
+    compFileName = filename
+  }
+
+  var dest = path.join( path.dirname( file ), compFileName )
+  var options = { clobber: true } // overwrite
+  
+  fs.move( file, dest, options, function( err ) {
+    if ( err ) {
+      logError( err )
+      return cb( err )
+    } 
+    else {
+      return cb( null, dest )
+    }
+  })
+}
+
+/**
+ * This callback is called as result from saving a component.
+ * @callback prepareCallback
+ * @param {?Error} err - Error object
+ * @param {?string[]} components - A list of newly created tmp components.
+ */
+
+/**
+ * Prepare component files from skeleton files in
+ * temporary directory, ready to be moved in the actual
+ * react component folder.
+ * @param {string} name - Component name.
+ * @param {?string} [desc] - Component description.
+ * @callback {prepareCallback} cb - Return a list of temp components created.
+ */
+function prepareComponent( name, desc, cb ) {
+  if ( !name ) { cb( 'Cannot save component without name' ) }
+  desc = desc || name + ' Component'
+  var components = []
+  fs.ensureDir( TMP, function( err ) {
+    fs.copy( './tools/reactcomp/skel', TMP, function( err ) {
+      if ( err ) { return cb( err ) }
+      fs.readdir( TMP, function (err, files ) {
+        if ( err ) { return cb( err ) }
+        for (var i = 0; i < files.length; i++ ) {
+          var file = path.join( TMP, files[ i ] )
+
+          injectInfo( name, desc, file, function( err, readFile, content ) {
+            var options = { w: true }
+            fs.writeFile( readFile, content, options, function( err ) {
+              if ( err ) { return cb( err ) }
+              return saveComponent( name, readFile, function ( err, comp ) {
+                if ( comp ) { components.push( comp ) }
+                if ( components.length === files.length ) {
+                  cb( null, components )
+                }
+              })
+            })
+          })
+        }
+      })
+    })
+  })
+}
+
+/**
+ * Create a react component package.
+ * @param {!string} name - Component name
+ * @param {?desc} [desc] - Component description
+ * @param {dest} [dest] - Root component destination
+ */
+function createComponent( name, desc, dest, cb ) {
+  if ( !name ) { cb( 'Cannot save component without name' ) }
+  if ( !dest ) { cb( 'Cannot save component without destination' ) }
+  dest = path.join( dest, name )
+  fs.stat( dest, function( err, stats) {
+    // component already exists
+    if ( !err ) {
+      logError( 'Component "' + name + '" already exists.' )
+      return cb( err )
+    }
+    // component doesn't exists. create it.
+    if ( err.code === 'ENOENT' ) {
+      fs.mkdirs( dest, function( err ) {
+        if ( err ) {
+          return cb( err )
+        }
+        prepareComponent( name, desc, function( err, files ) {
+          if ( err ) { return cb( err ) }
+          for ( var i = 0; i < files.length; i++ ) {
+            var filename = path.basename( files[ i ] )
+            var output = path.join( dest, filename )
+            fs.move( files[ i ], output, function( err ) {
+              if ( err ) { return cb( err ) }
+              console.log( colors.cyan( dest + ' created.' ) )
+            })
+          }
+        })
+      })
+    }
+  })
+}
+
+/**
+ * Main entry function.
+ */
+function main() {
+  try {
+    fs.existsSync( REACT_DIR )
+  }
+  catch ( err ) {
+    var message = 'Error: Unable to find a react project at path ' + REACT_DIR
+    logError( message )
+  }
+
+  fs.ensureDir( COMPONENT_ROOT, function(err) {
+    if ( !err ) {
+      clean()
+      createComponent( argv._[0], argv._[1], COMPONENT_ROOT, function( err ) {
+        if ( err ) {
+          logError( err )
+        }
+      })
+    }
+  })
+}
+
+if ( require.main ) {
+  main()
+}

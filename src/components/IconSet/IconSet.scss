@@ -1,0 +1,64 @@
+@import '../../core/styles/styles.scss';
+
+/** Styles */
+.FileIcon {
+  display: table;
+  position: relative;
+  width: 100%;
+  display: block;
+  vertical-align: middle;
+  padding-bottom: 4%;
+}
+
+.FileIcon-TextBox, .FileIcon-ImageBox{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center
+}
+
+.FileIcon-TextBox {
+  h1 {
+    line-height: 1.6;
+    font-size: 2.3em;
+  }
+  p {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    font-size: 1.8em;
+    font-weight: 100;
+    line-height:  1.5;
+  }
+}
+
+.FileIcon-ImageBox{
+  width: 100%;
+  padding-top: 4em;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.FileIcon-Iconset {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.FileIcon-Image-Container {
+  position: relative;
+  height: auto;
+  right: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.FileIcon-Image {
+  width: 100%;
+}

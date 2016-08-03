@@ -1,0 +1,30 @@
+@mixin font-face( $family, $name, $style, $weight ) {
+  font-family: $family;
+  src: url('../../data/fonts/#{$name}_#{$style}.woff2') format( 'woff2' ), 
+       url('../../data/fonts/#{$name}_#{$style}.woff') format( 'woff' );
+  font-weight: $weight;
+}
+@font-face {
+  @include font-face( 'Myriad Set Pro', 'myriad-set-pro', 'ultralight', 100 )
+}
+
+@font-face {
+  @include font-face( 'Myriad Set Pro', 'myriad-set-pro', 'thin', 200 )
+}
+
+@font-face {
+  @include font-face( 'Myriad Set Pro', 'myriad-set-pro', 'text', 400 )
+}
+
+@font-face {
+  @include font-face( 'Myriad Set Pro', 'myriad-set-pro', 'medium', 500 )
+}
+
+@font-face {
+  @include font-face( 'Myriad Set Pro', 'myriad-set-pro', 'semibold', 600 )
+}
+
+@font-face {
+  @include font-face( 'Myriad Set Pro', 'myriad-set-pro', 'bold', 700 )
+}
+

@@ -1,0 +1,13 @@
+{
+  "plugins": [ "plugins/markdown" ],
+  "source": {
+    "include": "./src",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "opts": {
+    "encoding": "utf8",
+    "destination": "./docs/jsdocs",
+    "recurse": true,
+    "private": true
+  }
+}

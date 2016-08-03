@@ -1,0 +1,104 @@
+@import '../../core/styles/styles.scss';
+
+/** Styles */
+.Theme {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 4% 0;
+}
+
+.Theme-ImageBox, .Theme-TextBox {
+  position: relative;
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.Theme-ImageBox {
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 4em 1em;
+  text-align: center;
+}
+
+.Theme-TextBox {
+  display: block;
+  width: 100%;
+  h1 {
+    line-height: 1.6;
+    font-size: 2.3em;
+    text-align: center;
+    z-index: 100;
+  }
+  p {
+    text-align: center;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    font-size: 1.8em;
+    font-weight: 100;
+    line-height:  1.5;
+  }
+}
+
+.Theme-ColorScheme-Container {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.Theme-ColorScheme {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2.8em;
+  z-index: -1;
+
+  .Theme-ColorScheme-Red, 
+  .Theme-ColorScheme-Green, 
+  .Theme-ColorScheme-Blue,
+  .Theme-ColorScheme-Violet,
+  .Theme-ColorScheme-Yellow {
+    opacity: 0;
+    display: inline-block;
+    margin: 0 0.8em;
+    width: 4em;
+    height: 4em;
+    z-index: -1;
+  }
+
+  .Theme-ColorScheme-Red {
+    background-color: $red
+  }
+  .Theme-ColorScheme-Green {
+    background-color: $green
+  }
+  .Theme-ColorScheme-Blue {
+    background-color: $blue
+  }
+  .Theme-ColorScheme-Violet {
+    background-color: $violet
+  }
+  .Theme-ColorScheme-Yellow {
+    background-color: $yellow
+  }
+}
+
+.Theme-Image-Container {
+  position: relative;
+  height: auto;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Theme-Image {
+  width: 100%;
+  margin: 0 auto;
+}

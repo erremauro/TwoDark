@@ -1,0 +1,6 @@
+/**
+ * Define the position of the GitHub mark when shaken.
+ * @typedef module:components/Download~DownloadState
+ * @property { number } top - Shaken image top position.
+ * @property { number } left - Shaken image left position.
+ */

@@ -1,0 +1,23 @@
+@import '../../core/styles/styles.scss';
+/** Styles */
+.Download {
+  padding: 4%;
+  text-align: center;
+
+  h1 {
+    font-size: 2em;
+    line-height: 0;
+  }
+}
+
+.Download-Image {
+  width: 25%;
+  margin: 0 auto;
+  height: auto;
+  display: block;
+  padding: 8% 0;
+}
+
+.Download-Link {
+  font-size: 1.8em;
+}

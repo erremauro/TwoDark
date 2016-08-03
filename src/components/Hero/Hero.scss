@@ -1,0 +1,65 @@
+@import '../../core/styles/styles.scss';
+
+
+/** Hero Styles */
+.Hero {
+  margin-top: 8%;
+  padding-bottom: 8%;
+  width: 100%;
+  height: auto;
+  text-align: center;
+
+  &:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+}
+
+.Hero-Background {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: -51%;
+  z-index: -1;
+}
+
+.Hero-Background-Container {
+  margin-bottom: 4%;
+  display: inline-block;
+  height: auto;
+}
+
+
+.Hero-Image, .Hero-Video {
+  opacity: 0;
+  position: relative;
+  width: 75.8%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  z-index: 100;
+}
+
+.Hero-Video::-webkit-media-controls-play-button,
+.Hero-Video::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+    width: 5px;
+}
+
+.Hero-Description {
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin: 4% auto;
+  p {
+    font-size: 2.3em;
+    font-weight: 100;
+    line-height: 1.4;
+  }
+}

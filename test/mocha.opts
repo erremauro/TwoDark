@@ -1,0 +1,4 @@
+--compilers js:babel-core/register
+--require ./src/tests/browser.js
+--require ./src/tests/ignoreStyles.js
+--recursive ./src/**/*.spec.js

@@ -1,0 +1,4 @@
+node_modules
+coverage
+jsdocs
+npm-debug.log

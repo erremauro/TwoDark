@@ -1,0 +1,20 @@
+/**
+ * Application wide state.
+ * @typedef module:components/App~AppState
+ *
+ * @property { object } media
+ * @property { object } text
+ * @property { module:components/App~ScrollInfo } scroll
+ */
+
+/**
+ * Application props.
+ * @typedef module:components/App~AppProps
+ */
+
+/**
+ * Scroll position informations.
+ * @typedef module:components/App~ScrollInfo
+ *
+ * @property { number } top - Scroll top position.
+ */

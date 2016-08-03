@@ -1,0 +1,30 @@
+@mixin transition( $transition ) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}
+
+@mixin box-shadow($h, $v, $blur, $spread, $color ) {
+  -moz-box-shadow: $h $v $blur $spread $color;
+  -webkit-box-shadow: $h $v $blur $spread $color;
+  box-shadow: $h $v $blur $spread $color;
+}
+
+@mixin typography() {
+  font-family: $font;
+  font-size: $font-size;
+  color: $fg;
+}
+
+@mixin animated( $time ) {
+  animation-duration: unquote("#{$time}s");
+  animation-fill-mode: both;
+}
+
+@mixin animDelay( $factor ) {
+  @include animated( 1 )
+  -webkit-animation-delay: unquote("#{0.1 * $factor}s");
+  animation-delay: unquote("#{0.1 * $factor}s");
+}

@@ -1,0 +1,29 @@
+@import '../../core/styles/styles.scss';
+
+/** Styles */
+.App {
+  
+}
+
+.Header {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 8.3em;
+  }
+}
+
+.Footer {
+  line-height: 1.5;
+  font-size: 1.8em;
+  padding: 1em 0;
+  width: 100%;
+  text-align: center;
+
+  .smaller {
+    font-size: 0.8em;
+  }
+}

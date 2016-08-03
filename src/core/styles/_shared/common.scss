@@ -1,0 +1,56 @@
+body, html {
+  height: 100%;
+}
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Myriad Set Pro', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: $fg;
+  background-color: $bg;
+  font-smooth: always;
+  width: 100%;
+}
+
+a {
+  color: $fg;
+  text-decoration: none;
+  font-weight: 400;
+  @include transition( color 1s linear )
+}
+
+a:hover {
+  color: $hover;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.disable-scroll {
+  margin: 0;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.enable-scroll {
+  overflow-y: visible;
+}
+
+.blue {
+  color: $blue;
+}

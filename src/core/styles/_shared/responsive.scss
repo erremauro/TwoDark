@@ -1,0 +1,108 @@
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+  and (-webkit-min-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+  and (-webkit-min-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+  and (-webkit-min-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px)
+  and (-webkit-min-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px)
+  and (orientation: portrait) {
+    body { font-size: 10px; }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px)
+  and (orientation: landscape) {
+    body { font-size: 14px; }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) {     
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+  and (orientation: portrait) { 
+    body {
+      font-size: 12px;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+  and (orientation: landscape) { 
+    body {
+      font-size: 14px;
+    }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+  and (-webkit-min-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+  and (-webkit-min-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+  and (-webkit-min-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
