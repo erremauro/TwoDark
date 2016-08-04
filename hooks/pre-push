@@ -1,2 +1,4 @@
 #!/bin/bash
+echo "Changing environment back to development"
+export NODE_ENV=development
 npm run test>&2
