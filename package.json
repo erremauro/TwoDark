@@ -1,6 +1,6 @@
 {
   "name": "twodark",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "It's like OneDark for Atom, but it's called TwoDark and works for SublimeText",
   "main": "build.js",
   "scripts": {
