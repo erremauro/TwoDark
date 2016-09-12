@@ -22,7 +22,7 @@ IDK, I'm just a README. [See][1] for yourself:
 
 You'll find TwoDark listed as "Theme - TwoDark" on Package Control.
 
-To install the theme for Package Control:
+To install the theme using Package Control:
 
 Open Command Palette using menu item Tools -> Command Palette... (⇧⌘P on Mac)
 Choose Package Control: Install Package
