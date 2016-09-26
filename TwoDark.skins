@@ -1,0 +1,12 @@
+{
+	"TwoDark - Default":
+	{
+		"Preferences":
+		{
+			"color_scheme": "Packages/Theme - TwoDark/TwoDark.tmTheme",
+			"theme": "TwoDark.sublime-theme",
+			"draw_shadows": false,
+			"highlight_modified_tabs": true
+		}
+	}
+}
