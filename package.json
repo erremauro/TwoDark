@@ -38,7 +38,6 @@
     "gulp-load-plugins": "^1.2.4",
     "gulp-rename": "^1.2.2",
     "gulp-svgmin": "^1.2.2",
-    "gulp-task-list": "git+https://github.com/erremauro/gulp-task-list.git",
     "gulp-watch": "^4.3.8",
     "map-stream": "0.0.6",
     "mocha": "^2.5.3",

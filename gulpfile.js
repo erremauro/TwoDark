@@ -8,12 +8,10 @@ var fs = require( 'fs-extra' )
   , config = require( './gulp.config.js' )
 var $ = gulpLoadPlugins()
 
-require( 'gulp-task-list' )( gulp, ['missing-icons'] );
-
 // Monitor svg changes and rebuild changed file.
 gulp.task( 'watch', function() {
   TaskUtil.log( 'Monitoring file changes at ' + config.svgPath )
-  var opts = {
+  var opts  = {
     ignoreInitial: true,
     events: [ 'add', 'change' ]
   }
@@ -80,10 +78,11 @@ gulp.task( 'missing', [ 'missing-icons' ], function() {
     themeImages = themeImages.concat(
       TaskUtil.copyImagesWithFactor( themeImages, 2 )
     )
+
     var graphics = TaskUtil.readDirs( config.gfx.dest )
     var missing = TaskUtil.arrDiff( themeImages, graphics )
 
-    TaskUtil.printMissing( missing, 'graphic files' )
+    TaskUtil.printMissing( missing, 'graphics' )
   })
 })
 
