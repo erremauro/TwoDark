@@ -4,7 +4,7 @@
 // 
     {
         "class": "scroll_bar_control",
-        "layer0.texture": "Theme - TwoDark/TwoDark/normal_bar_vertical.png",
+        "layer0.texture": "Theme - TwoDark/TwoDark/normal-bar.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 6],
         "blur": false
@@ -12,20 +12,20 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/normal_bar_horizontal.png",
+        "layer0.texture": "Theme - TwoDark/TwoDark/normal-bar.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 0],
         "blur": false
     },
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "Theme - TwoDark/TwoDark/normal_bar_corner.png",
+        "layer0.texture": "Theme - TwoDark/TwoDark/normal-bar.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
     },
     {
         "class": "puck_control",
-        "layer0.texture": "Theme - TwoDark/TwoDark/normal_thumb_vertical.png",
+        "layer0.texture": "Theme - TwoDark/TwoDark/normal-thumb-vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12],
@@ -34,7 +34,7 @@
     {
          "class": "puck_control",
          "attributes": ["horizontal"],
-         "layer0.texture": "Theme - TwoDark/TwoDark/normal_thumb_horizontal.png",
+         "layer0.texture": "Theme - TwoDark/TwoDark/normal-thumb-horizontal.png",
          "layer0.opacity": 1.0,
          "layer0.inner_margin": [10, 0],
          "content_margin": [12, 8],
@@ -53,7 +53,7 @@
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/overlay_thumb_vertical.png",
+        "layer0.texture": "Theme - TwoDark/TwoDark/overlay-thumb-vertical.png",
         "layer0.inner_margin": [0, 5],
         "content_margin": [5, 20],
         "blur": true
@@ -62,7 +62,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/overlay_thumb_horizontal.png",
+        "layer0.texture": "Theme - TwoDark/TwoDark/overlay-thumb-horizontal.png",
         "layer0.inner_margin": [5, 0],
         "content_margin": [20, 5],
         "blur": true
