@@ -1,0 +1,15 @@
+TwoDark Changelog
+==================
+
+## [1.1.1] 2016-12-08
+
+### Fixed
+
+* Scrollbars background color
+
+## [1.1.0] 2016-12-08
+
+### Add
+
+* Scrollbars (Whoa, magical!)
+* Support for 'Skins' plugin.

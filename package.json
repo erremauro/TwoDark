@@ -1,11 +1,10 @@
 {
   "name": "twodark",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "It's like OneDark for Atom, but it's called TwoDark and works for SublimeText",
   "main": "build.js",
   "scripts": {
-    "start": "gulp task-list",
-    "build": "guild default",
+    "start": "gulp",
     "test": "./node_modules/.bin/_mocha ./tests/"
   },
   "repository": {
