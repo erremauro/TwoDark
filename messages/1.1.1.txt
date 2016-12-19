@@ -5,7 +5,7 @@ TwoDark Changelog
 
 ### Changed
 
-* Scrollbars background color has been darkened to match the general ui palette. Unlike Atom, Sublime Text use a unique texture for every scrollbars background. This doesn't affect users using scrollbar overlay.
+* Scrollbars background color has been darkened to match the general ui palette.
 
 ## [1.1.0] 2016-12-08
 
