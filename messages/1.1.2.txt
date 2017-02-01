@@ -1,0 +1,21 @@
+TwoDark Changelog
+==================
+
+## [1.1.2] 2016-02-01
+
+### Fixed
+
+* Fix markup icon for xml files.
+
+## [1.1.1] 2016-12-08
+
+### Changed
+
+* Scrollbars background color has been darkened to match the general ui palette.
+
+## [1.1.0] 2016-12-08
+
+### Add
+
+* Scrollbars (Whoa, magical!)
+* Support for 'Skins' plugin.
