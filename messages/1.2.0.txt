@@ -1,0 +1,26 @@
+TwoDark Changelog
+==================
+
+## [1.2.0] 2021-06-05
+
+### Enhancements
+
+* Convert color theme to `sublime-color-scheme`.
+* Add @3x retina icons resolution.
+
+### BugFix
+
+* Fix Sidebar icons color.
+
+## [1.1.1] 2016-12-08
+
+### Enhancement
+
+* Scrollbars background color has been darkened to match the general ui palette.
+
+## [1.1.0] 2016-12-08
+
+### Enhancement
+
+* Add Scrollbars (Whoa, magical!)
+* Support for 'Skins' plugin.

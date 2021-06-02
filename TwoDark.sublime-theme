@@ -24,7 +24,7 @@
     },
     {
         "class": "puck_control",
-        "layer0.texture": "Theme - TwoDark/TwoDark/normal-thumb-vertical.png",
+        "layer0.texture": "Theme - TwoDark/common/normal-thumb-vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
         "content_margin": [5, 20],
@@ -33,7 +33,7 @@
     {
          "class": "puck_control",
          "attributes": ["horizontal"],
-         "layer0.texture": "Theme - TwoDark/TwoDark/normal-thumb-horizontal.png",
+         "layer0.texture": "Theme - TwoDark/common/normal-thumb-horizontal.png",
          "layer0.opacity": 1.0,
          "layer0.inner_margin": [10, 0],
          "content_margin": [20, 5],
@@ -52,7 +52,7 @@
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/overlay-thumb-vertical.png",
+        "layer0.texture": "Theme - TwoDark/common/overlay-thumb-vertical.png",
         "layer0.inner_margin": [0, 5],
         "content_margin": [5, 20],
         "blur": true
@@ -61,7 +61,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/overlay-thumb-horizontal.png",
+        "layer0.texture": "Theme - TwoDark/common/overlay-thumb-horizontal.png",
         "layer0.inner_margin": [5, 0],
         "content_margin": [20, 5],
         "blur": true
@@ -75,7 +75,7 @@
       "layer0.opacity": 1.0,
       "tab_overlap": 0,
       "mouse_wheel_switch": false,
-      "layer0.texture": "Theme - TwoDark/TwoDark/tabset-background.png",
+      "layer0.texture": "Theme - TwoDark/common/tabset-background.png",
       "tab_height": 32,
     },
     {
@@ -90,7 +90,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0,
         "layer0.texture": "",
-        "layer0.texture": "Theme - TwoDark/TwoDark/tab-inactive.png",
+        "layer0.texture": "Theme - TwoDark/common/tab-inactive.png",
         "layer0.inner_margin": [5,5],
         "layer0.opacity": 1
     },
@@ -110,7 +110,7 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.opacity": 1,
-        "layer0.texture": "Theme - TwoDark/TwoDark/tab-active.png",
+        "layer0.texture": "Theme - TwoDark/common/tab-active.png",
     },
     // Tab dirty state (close button hidden)
     {
@@ -128,92 +128,92 @@
         "content_margin": [8, 8],
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
-        "layer0.texture": "Theme - TwoDark/TwoDark/close.png",
+        "layer0.texture": "Theme - TwoDark/common/close.png",
     },
     {
         "class": "tab_close_button",
         "content_margin": [8, 8],
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close-hover.png",
+        "layer0.texture": "Theme - TwoDark/common/close-hover.png",
         "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
         "content_margin": [8, 8],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close.png",
+        "layer0.texture": "Theme - TwoDark/common/close.png",
         "layer0.opacity": 0
     },
     {
         "class": "tab_close_button",
         "content_margin": [8, 8],
         "parents": [{"class": "tab_control", "attributes": ["selected", "hover"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close-selected.png",
+        "layer0.texture": "Theme - TwoDark/common/close-selected.png",
         "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected", "hover"]}],
         "attributes": ["hover"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close-hover.png",
+        "layer0.texture": "Theme - TwoDark/common/close-hover.png",
         "layer0.opacity": 0.85,
     },
     {
         "class": "tab_close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close-hover.png",
+        "layer0.texture": "Theme - TwoDark/common/close-hover.png",
         "layer0.opacity": 0.75,
     },
     {
         "class": "tab_close_button",
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close-pressed.png",
+        "layer0.texture": "Theme - TwoDark/common/close-pressed.png",
         "layer0.opacity": 1,
     },
     // Tab highlight button
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/highlight.png",
+        "layer0.texture": "Theme - TwoDark/common/highlight.png",
         "layer0.opacity": 1,
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/highlight.png",
+        "layer0.texture": "Theme - TwoDark/common/highlight.png",
         "layer0.opacity": 1,
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/highlight.png",
+        "layer0.texture": "Theme - TwoDark/common/highlight.png",
         "layer0.opacity": 1,
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected", "hover"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close-selected.png",
+        "layer0.texture": "Theme - TwoDark/common/close-selected.png",
         "layer0.opacity": 1,
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected", "hover"]}],
         "attributes": ["hover"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close-hover.png",
+        "layer0.texture": "Theme - TwoDark/common/close-hover.png",
         "layer0.opacity": 0.85,
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
         "attributes": ["hover"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close-hover.png",
+        "layer0.texture": "Theme - TwoDark/common/close-hover.png",
         "layer0.opacity": 1,
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected", "hover"]}],
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close-pressed.png",
+        "layer0.texture": "Theme - TwoDark/common/close-pressed.png",
         "layer0.opacity": 1,
     },
 //
@@ -250,7 +250,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - TwoDark/TwoDark/fold-closed.png",
+        "layer0.texture": "Theme - TwoDark/common/fold-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
@@ -258,17 +258,17 @@
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/fold-closed-hover.png"
+        "layer0.texture": "Theme - TwoDark/common/fold-closed-hover.png"
     },
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/fold-open.png"
+        "layer0.texture": "Theme - TwoDark/common/fold-open.png"
     },
     {
         "class": "fold_button_control",
         "attributes": ["expanded", "hover"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/fold-open-hover.png"
+        "layer0.texture": "Theme - TwoDark/common/fold-open-hover.png"
     },
 
 //
@@ -327,7 +327,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "Theme - TwoDark/TwoDark/tooltip.png",
+        "layer0.texture": "Theme - TwoDark/common/tooltip.png",
         "layer0.inner_margin": [1, 1],
         "layer0.opacity": 0.95,
         "content_margin": [6, 6]
@@ -345,7 +345,7 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.texture": "Theme - TwoDark/TwoDark/status-bar-background.png",
+        "layer0.texture": "Theme - TwoDark/common/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [7, 7, 7, 7],
@@ -362,6 +362,18 @@
         "color": [157, 165, 180],
         "shadow_color": [25, 25, 25],
         "shadow_offset": [0, -1],
+    },
+    {
+        "class": "sidebar_button_control",
+        "layer0.texture": "Theme - Default/common/sidebar_button.png",
+        "layer0.opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+        "layer0.tint": "var(icon_tint)",
+        "content_margin": [10, 11]
+    },
+    {
+        "class": "sidebar_button_control",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
     },
 //
 // SIDEBAR
@@ -453,7 +465,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - TwoDark/TwoDark/close.png",
+        "layer0.texture": "Theme - TwoDark/common/close.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
@@ -467,31 +479,31 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/highlight.png",
+        "layer0.texture": "Theme - TwoDark/common/highlight.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/highlight.png"
+        "layer0.texture": "Theme - TwoDark/common/highlight.png"
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close.png"
+        "layer0.texture": "Theme - TwoDark/common/close.png"
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close-selected.png"
+        "layer0.texture": "Theme - TwoDark/common/close-selected.png"
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close-hover.png"
+        "layer0.texture": "Theme - TwoDark/common/close-hover.png"
     },
 
 //
@@ -501,54 +513,54 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - TwoDark/TwoDark/group-closed.png",
+        "layer0.texture": "Theme - TwoDark/common/group-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/group-closed-hover.png"
+        "layer0.texture": "Theme - TwoDark/common/group-closed-hover.png"
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/group-closed-hover.png"
+        "layer0.texture": "Theme - TwoDark/common/group-closed-hover.png"
     },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/group-open.png"
+        "layer0.texture": "Theme - TwoDark/common/group-open.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/group-open-hover.png"
+        "layer0.texture": "Theme - TwoDark/common/group-open-hover.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/group-open-hover.png"
+        "layer0.texture": "Theme - TwoDark/common/group-open-hover.png"
     },
     // Sidebar folder closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - TwoDark/TwoDark/folder.png",
+        "layer0.texture": "Theme - TwoDark/common/folder.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/folder-selected.png"
+        "layer0.texture": "Theme - TwoDark/common/folder-selected.png"
     },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/folder-selected.png"
+        "layer0.texture": "Theme - TwoDark/common/folder-selected.png"
     },
     // Sidebar file icons
     {
@@ -566,7 +578,7 @@
         "class": "button_control",
         "content_margin": [16,8,16,8],
         "min_size": [64,0],
-        "layer0.texture": "Theme - TwoDark/TwoDark/btn.png",
+        "layer0.texture": "Theme - TwoDark/common/btn.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": [8,8]
     },
@@ -574,13 +586,13 @@
     {
         "class": "button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/btn-hover.png",
+        "layer0.texture": "Theme - TwoDark/common/btn-hover.png",
     },
     // Pressed button state
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/btn-pressed.png",
+        "layer0.texture": "Theme - TwoDark/common/btn-pressed.png",
     },
 //
 // TEXT INPUT FIELD
@@ -589,7 +601,7 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.texture": "Theme - TwoDark/TwoDark/text-field.png",
+        "layer0.texture": "Theme - TwoDark/common/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4,4,4,4],
         "content_margin": [5,5,5,5]
@@ -598,13 +610,13 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - TwoDark/TwoDark/text-field-list.png",
+        "layer0.texture": "Theme - TwoDark/common/text-field-list.png",
         "layer0.opacity": 1.0,
     },
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/text-field-list-hover.png"
+        "layer0.texture": "Theme - TwoDark/common/text-field-list-hover.png"
     },
 //
 // PANEL BACKGROUNDS
@@ -613,26 +625,25 @@
     // Bottom panel background
     {
         "class": "panel_control",
-        "layer0.texture": "Theme - TwoDark/TwoDark/panel-background.png",
+        "layer0.texture": "Theme - TwoDark/common/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "content_margin": [2, 3, 2, 1],
     },
-    // Quick panel background
-    {
-        "class": "overlay_control",
-        "layer0.texture": "Theme - TwoDark/TwoDark/quick-panel-background.png",
-        "layer0.inner_margin": [12, 0, 13, 22],
-        "layer0.opacity": 1.0,
-        "layer1.texture": "Theme - TwoDark/TwoDark/quick-panel-sections.png",
-        "layer1.inner_margin": [12, 40, 13, 13],
-        "layer1.opacity": 1.0,
-        "content_margin": [12, 8, 12, 22],
-    },
 //
 // QUICK PANEL
 //
-
+    // Quick panel background
+    {
+        "class": "overlay_control",
+        "layer0.texture": "Theme - TwoDark/common/quick-panel-background.png",
+        "layer0.inner_margin": [12, 0, 8, 12],
+        "layer0.opacity": 1.0,
+        "layer1.texture": "Theme - TwoDark/common/quick-panel-sections.png",
+        "layer1.inner_margin": [12, 40, 13, 13],
+        "layer1.opacity": 1.0,
+        "content_margin": [12, 8, 12, 20],
+    },
     {
         "class": "quick_panel",
         "row_padding": [5, 2],
@@ -642,14 +653,14 @@
     },
     {
         "class": "quick_panel_row",
-        "layer0.texture": "Theme - TwoDark/TwoDark/quick-panel-row.png",
+        "layer0.texture": "Theme - TwoDark/common/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/quick-panel-row-selected.png"
+        "layer0.texture": "Theme - TwoDark/common/quick-panel-row-selected.png"
     },
     {
         "class": "quick_panel_label",
@@ -675,14 +686,14 @@
 //
     {
         "class": "mini_quick_panel_row",
-        "layer0.texture": "Theme - TwoDark/TwoDark/quick-panel-row.png",
+        "layer0.texture": "Theme - TwoDark/common/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/quick-panel-row-selected.png"
+        "layer0.texture": "Theme - TwoDark/common/quick-panel-row-selected.png"
     },
 //
 // CODE COMPLETION DROPDOWN
@@ -724,7 +735,7 @@
     // Button group middle
     {
         "class": "icon_button_control",
-        "layer0.texture": "Theme - TwoDark/TwoDark/btn-group-middle.png",
+        "layer0.texture": "Theme - TwoDark/common/btn-group-middle.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
         "content_margin": [12, 6]
@@ -732,61 +743,61 @@
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/btn-group-middle-on.png"
+        "layer0.texture": "Theme - TwoDark/common/btn-group-middle-on.png"
     },
     // Button group left
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/btn-group-left.png",
+        "layer0.texture": "Theme - TwoDark/common/btn-group-left.png",
         "content_margin": [12, 6]
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "selected"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/btn-group-left-on.png"
+        "layer0.texture": "Theme - TwoDark/common/btn-group-left-on.png"
     },
     // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/btn-group-right.png",
+        "layer0.texture": "Theme - TwoDark/common/btn-group-right.png",
         "content_margin": [12, 6]
     },
     {
         "class": "icon_button_control",
         "attributes": ["right", "selected"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/btn-group-right-on.png"
+        "layer0.texture": "Theme - TwoDark/common/btn-group-right-on.png"
     },
     // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/btn.png",
+        "layer0.texture": "Theme - TwoDark/common/btn.png",
         "content_margin": [12, 6]
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "right", "selected"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/btn-on.png"
+        "layer0.texture": "Theme - TwoDark/common/btn-on.png"
     },
     // Panel close button
     {
         "class": "panel_close_button",
-        "layer0.texture": "Theme - TwoDark/TwoDark/close.png",
+        "layer0.texture": "Theme - TwoDark/common/close.png",
         "layer0.opacity": 0.85,
         "content_margin": [8, 8]
     },
     {
         "class": "panel_close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close-hover.png",
+        "layer0.texture": "Theme - TwoDark/common/close-hover.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "panel_close_button",
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - TwoDark/TwoDark/close-pressed.png"
+        "layer0.texture": "Theme - TwoDark/common/close-pressed.png"
     },
 //
 // BOTTOM PANEL ICONS - GROUP 1
@@ -795,38 +806,38 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-regex-off.png",
+        "layer0.texture": "Theme - TwoDark/common/icon-regex-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-regex-on.png"
+        "layer0.texture": "Theme - TwoDark/common/icon-regex-on.png"
     },
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-case-off.png",
+        "layer0.texture": "Theme - TwoDark/common/icon-case-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-case-on.png"
+        "layer0.texture": "Theme - TwoDark/common/icon-case-on.png"
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-word-off.png",
+        "layer0.texture": "Theme - TwoDark/common/icon-word-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-word-on.png"
+        "layer0.texture": "Theme - TwoDark/common/icon-word-on.png"
     },
 //
 // BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
@@ -835,26 +846,26 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-context-off.png",
+        "layer0.texture": "Theme - TwoDark/common/icon-context-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-context-on.png"
+        "layer0.texture": "Theme - TwoDark/common/icon-context-on.png"
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-buffer-off.png",
+        "layer0.texture": "Theme - TwoDark/common/icon-buffer-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-buffer-on.png"
+        "layer0.texture": "Theme - TwoDark/common/icon-buffer-on.png"
     },
 //
 // BOTTOM PANEL ICONS - GROUP 2
@@ -863,33 +874,33 @@
     // Reverse search direction button
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-reverse-off.png",
+        "layer0.texture": "Theme - TwoDark/common/icon-reverse-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-wrap-off.png",
+        "layer0.texture": "Theme - TwoDark/common/icon-wrap-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-wrap-on.png"
+        "layer0.texture": "Theme - TwoDark/common/icon-wrap-on.png"
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-selection-off.png",
+        "layer0.texture": "Theme - TwoDark/common/icon-selection-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-selection-on.png"
+        "layer0.texture": "Theme - TwoDark/common/icon-selection-on.png"
     },
 //
 // BOTTOM PANEL ICONS - GROUP 3
@@ -898,14 +909,14 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-preserve-off.png",
+        "layer0.texture": "Theme - TwoDark/common/icon-preserve-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-preserve-on.png"
+        "layer0.texture": "Theme - TwoDark/common/icon-preserve-on.png"
     },
 //
 // BOTTOM PANEL ICONS - GROUP 4
@@ -914,13 +925,13 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-highlight-off.png",
+        "layer0.texture": "Theme - TwoDark/common/icon-highlight-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - TwoDark/TwoDark/icon-highlight-on.png"
+        "layer0.texture": "Theme - TwoDark/common/icon-highlight-on.png"
     }
 ]

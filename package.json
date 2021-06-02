@@ -1,11 +1,12 @@
 {
-  "name": "twodark",
-  "version": "1.1.1",
+  "name": "TwoDark",
+  "version": "1.2.0",
   "description": "It's like OneDark for Atom, but it's called TwoDark and works for SublimeText",
   "main": "build.js",
   "scripts": {
-    "start": "gulp",
-    "test": "./node_modules/.bin/_mocha ./tests/"
+    "build": "node scripts/build",
+    "convert-gfx": "node scripts/convert-gfx.js",
+    "convert-icons": "node scripts/convert-icons.js"
   },
   "repository": {
     "type": "git",
@@ -28,19 +29,12 @@
   },
   "homepage": "https://github.com/erremauro/TwoDark#readme",
   "dependencies": {
-    "chai": "^3.5.0",
-    "chai-as-promised": "^5.3.0",
-    "cheerio": "^0.20.0",
-    "event-stream": "^3.3.4",
-    "fs-extra": "^0.30.0",
-    "gulp": "^3.9.1",
-    "gulp-load-plugins": "^1.2.4",
-    "gulp-rename": "^1.2.2",
-    "gulp-svgmin": "^1.2.2",
-    "gulp-watch": "^4.3.8",
-    "map-stream": "0.0.6",
-    "mocha": "^2.5.3",
-    "q": "^1.4.1",
-    "svg2png": "^3.0.0"
+    "glob": "^7.1.7",
+    "sharp": "^0.28.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "prettier": "^2.3.0",
+    "rear-logger": "^1.0.0"
   }
 }

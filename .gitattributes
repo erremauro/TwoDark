@@ -2,12 +2,10 @@
 .env            export-ignore
 .gitignore      export-ignore
 .gitattributes  export-ignore
+.editorconfig   export-ignore
 package.json    export-ignore
-lib/            export-ignore
-gulpfile.js     export-ignore
-gulp.config.js  export-ignore
-tests/          export-ignore
 src/            export-ignore
+scripts/            export-ignore
 .gitignore      merge=ours
 .gitattributes  merge=ours
 
