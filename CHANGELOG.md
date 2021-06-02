@@ -37,7 +37,9 @@ This change log adheres to standards from [Keep a CHANGELOG].
 * Add Scrollbars (Whoa, magical!)
 * Support for 'Skins' plugin.
 
-[1.2.0]: https://github.com/erremauro/cra-template-rear/compare/v1.1.0...v1.2.0
-[1.1.0]: https://github.com/erremauro/cra-template-rear/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/erremauro/cra-template-rear/releases/tag/v1.0.0
+[1.2.0]: https://github.com/erremauro/TwoDark/compare/v1.1.2...v1.2.0
+[1.1.2]: https://github.com/erremauro/TwoDark/compare/v1.1.1...v1.1.2
+[1.1.1]: https://github.com/erremauro/TwoDark/compare/v1.1.0...v1.1.1
+[1.1.0]: https://github.com/erremauro/TwoDark/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/erremauro/TwoDark/releases/tag/v1.0.0
 
