@@ -7,7 +7,7 @@ This change log adheres to standards from [Keep a CHANGELOG].
 [Semantic Versioning]: http://semver.org/
 [Keep a CHANGELOG]: http://keepachangelog.com
 
-## [1.2.0] 2021-06-05
+## [1.2.0] 2021-06-03
 
 #### :rocket: Enhancement
 * Update color theme to `sublime-color-scheme`

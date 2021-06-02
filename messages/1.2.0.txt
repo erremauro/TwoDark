@@ -1,7 +1,21 @@
+TwoDark v1.2.0 is here!
+
+This version migrate to `sublime-color-scheme` format! Head over to your
+preferences and make the following changes:
+
+	{
+		"color_scheme": "Packages/Theme - TwoDark/TwoDark.sublime-color-scheme",
+	}
+
+Please note that the new color scheme could have small inconsistencies here 
+and there that are planned to be fixed in future versions. 
+
+You're welcome to submit any issue or even better a fix at https://github.com/erremauro/TwoDark
+
 TwoDark Changelog
 ==================
 
-## [1.2.0] 2021-06-05
+## [1.2.0] 2021-06-03
 
 ### Enhancements
 

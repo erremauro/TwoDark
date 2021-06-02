@@ -46,7 +46,7 @@ preferences. (or <kbd>⌘</kbd><kbd>,</kbd> on Mac)
 ```json
 {
   "theme": "TwoDark.sublime-theme",
-  "color_scheme": "Packages/Theme - TwoDark/TwoDark.tmTheme",
+  "color_scheme": "Packages/Theme - TwoDark/TwoDark.sublime-color-scheme",
   "draw_shadows": false,
   "highlight_modified_tabs": true,
   "caret_extra_width": 1,
