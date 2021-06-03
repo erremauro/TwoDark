@@ -7,6 +7,11 @@ This change log adheres to standards from [Keep a CHANGELOG].
 [Semantic Versioning]: http://semver.org/
 [Keep a CHANGELOG]: http://keepachangelog.com
 
+## [1.2.2] 2021-06-03
+
+### :bug: BugFix
+* Fix laravel blade template syntax
+
 ## [1.2.1] 2021-06-03
 
 ### :rocket: Enhancement
@@ -46,6 +51,7 @@ This change log adheres to standards from [Keep a CHANGELOG].
 * Add Scrollbars (Whoa, magical!)
 * Support for 'Skins' plugin.
 
+[1.2.2]: https://github.com/erremauro/TwoDark/compare/v1.2.1...v1.2.2
 [1.2.1]: https://github.com/erremauro/TwoDark/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/erremauro/TwoDark/compare/v1.1.2...v1.2.0
 [1.1.2]: https://github.com/erremauro/TwoDark/compare/v1.1.1...v1.1.2

@@ -52,10 +52,12 @@
     "rules":
     [
         {
+            "name": "Text",
             "scope": "variable.parameter.function",
             "foreground": "var(white)"
         },
         {
+            "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "var(light_grey)",
             "font_style": "italic"
@@ -300,5 +302,30 @@
             "scope": "source.js meta.function.js support.constant.js",
             "foreground": "var(orange)"
         },
+        {
+            "name": "Laravel Blade Punctuation Begin",
+            "scope": "text.blade punctuation.section.embedded.begin.blade, text.blade punctuation.section.embedded.end.blade",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Laravel Blade Tag",
+            "scope": "text.html.blade entity.name.tag.blade",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Laravel Blade Tag",
+            "scope": "support.function, constant.other.inline-data.html",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Laravel Blade @",
+            "scope": "text.html.blade constant.other.inline-data.html",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "Laravel Blade @",
+            "scope": "custom.compiler.blade.php support.function",
+            "foreground": "var(pink)"
+        }
     ]
 }
