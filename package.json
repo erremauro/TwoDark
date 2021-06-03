@@ -1,8 +1,12 @@
 {
   "name": "TwoDark",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "It's like OneDark for Atom, but it's called TwoDark and works for SublimeText",
-  "main": "build.js",
+  "author": "Roberto Mauro <erremauro@icloud.com>",
+  "homepage": "https://github.com/erremauro/TwoDark#readme",
+  "license": "MIT",
+  "bugs": "https://github.com/erremauro/TwoDark/issues",
+  "main": "scripts/build.js",
   "scripts": {
     "build": "node scripts/build",
     "convert-gfx": "node scripts/convert-gfx.js",
@@ -11,6 +15,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/erremauro/TwoDark.git"
+  },
+  "engines": {
+    "node": ">=14.17.0"
   },
   "keywords": [
     "theme",
@@ -22,12 +29,6 @@
     "editor",
     "packagecontrol"
   ],
-  "author": "Roberto Mauro <erremauro@icloud.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/erremauro/TwoDark/issues"
-  },
-  "homepage": "https://github.com/erremauro/TwoDark#readme",
   "dependencies": {
     "glob": "^7.1.7",
     "sharp": "^0.28.3"

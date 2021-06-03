@@ -1,11 +1,12 @@
-In life I took many forms and seen many places.
+Thank you for choosing TwoDark!
 
-Now I've traveled through time and space just to meet **you** at the perfect time, in the perfect place. I'm install.txt
+If you find any issue or you'd like to collaborate to the project, 
+head over https://github.com/erremauro/TwoDark.git
 
-How to Activate
-===============
+## Configurations
 
-To activate the UI Theme and Color Scheme, modify you user preferences by selecting: `Sublime Text` -> Preferences -> Settings - User
+To activate the UI Theme and Color Scheme, modify you user preferences by 
+selecting: `Sublime Text` -> Preferences -> Settings - User
 
 {
   "theme": "TwoDark.sublime-theme",
@@ -13,7 +14,7 @@ To activate the UI Theme and Color Scheme, modify you user preferences by select
   "draw_shadows": false,
   "highlight_modified_tabs": true,
   "caret_extra_width": 1,
+  "caret_style": "smooth",
 }
 
 Restart Sublime Text after activating the theme.
-

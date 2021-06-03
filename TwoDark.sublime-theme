@@ -295,8 +295,8 @@
 //
     {
         "class": "minimap_control",
-        "settings": ["always_show_minimap_viewport"],
-        "viewport_color": [255, 255, 255, 15],
+        "settings": ["!always_show_minimap_viewport"],
+        "viewport_color": [255, 255, 255, 10],
     },
 //
 // LABELS
@@ -646,7 +646,7 @@
     },
     {
         "class": "quick_panel",
-        "row_padding": [5, 2],
+        "row_padding": [10, 2],
         "layer0.tint": [157, 165, 180],
         "layer0.opacity": 1.0,
         "dark_content": true,
@@ -698,7 +698,6 @@
 //
 // CODE COMPLETION DROPDOWN
 //
-
     {
         "class": "popup_control",
         "content_margin": [0,0],
