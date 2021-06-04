@@ -7,6 +7,15 @@ This change log adheres to standards from [Keep a CHANGELOG].
 [Semantic Versioning]: http://semver.org/
 [Keep a CHANGELOG]: http://keepachangelog.com
 
+## [1.2.3] 2021-06-04
+
+### Fix
+* Fix an issue with the graphic resolution that showed some artifacts on windows.
+
+### Polish
+* Refine the color scheme.
+* Update the tab close icon.
+
 ## [1.2.2] 2021-06-03
 
 ### :bug: BugFix

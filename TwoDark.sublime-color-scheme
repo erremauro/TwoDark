@@ -19,11 +19,12 @@
         "red": "hsl(355, 65%, 65%)",
         "deep_red": "hsla(5, 48%, 51%, 1)",
         "electric_blue": "hsl(220, 100%, 66%)",
-        "blue": "hsl(207, 82%, 66%)",
-        "cyan": "hsl(187, 47%, 55%)",
+        "blue": "hsl(210, 73%, 68%)",
+        "dark_blue": "hsl(222, 29%, 30%)",
+        "cyan": "hsl(189, 39%, 59%)",
         "yellow": "hsl(40, 94%, 68%)",
-        "green": "hsl(95, 38%, 62%)",
-        "mocha": "hsla(55, 5%, 43%)"
+        "green": "hsl(90, 34%, 63%)",
+        "mocha": "hsl(55, 5%, 43%)"
     },
     "globals":
     {
@@ -31,21 +32,21 @@
         "background": "var(darker_grey)",
         "invisibles": "var(lighter_grey)",
         "caret": "var(electric_blue)",
-        "line_highlight": "var(dark_grey)",
+        "line_highlight": "color(var(grey) alpha(0.3))",
         "selection": "var(grey)",
-        "selection_border":"var(light_grey2)",
-        "inactive_selection": "var(light_grey2)",
+        "selection_border": "var(grey)",
+        "inactive_selection": "var(grey)",
         "misspelling": "var(red)",
         "shadow": "color(var(black) alpha(0.25))",
         "active_guide": "var(cyan)",
         "stack_guide": "color(var(cyan) alpha(0.5))",
-        "highlight": "var(cyan)",
-        "find_highlight_foreground": "var(grey)",
+        "highlight": "var(yellow)",
+        "find_highlight_foreground": "var(darker_grey)",
         "find_highlight": "var(yellow)",
         "brackets_options": "underline",
-        "brackets_foreground": "var(cyan)",
+        "brackets_foreground": "var(electric_blue)",
         "bracket_contents_options": "underline",
-        "bracket_contents_foreground": "var(cyan)",
+        "bracket_contents_foreground": "var(electric_blue)",
         "tags_options": "stippled_underline",
         "tags_foreground": "var(pink)"
     },
@@ -70,22 +71,37 @@
         {
             "name": "Operator",
             "scope": "keyword.operator",
-            "foreground": "var(white)"
+            "foreground": "var(pink)"
         },
         {
             "name": "Keyword",
-            "scope": "keyword",
+            "scope": "keyword - keyword.operator, keyword.operator.word",
             "foreground": "var(pink)"
         },
         {
             "name": "Variable",
             "scope": "variable",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "Member Variable",
+            "scope": "variable.member",
             "foreground": "var(red)"
         },
         {
-            "name": "Functions",
-            "scope": "entity.name.function, meta.require, support.function.any-method",
+            "name": "Function",
+            "scope": "entity.name.function, meta.require, support.function, support.macro",
             "foreground": "var(blue)"
+        },
+        {
+            "name": "Function call",
+            "scope": "variable.function, variable.annotation",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type",
+            "foreground": "var(red)"
         },
         {
             "name": "Classes",
@@ -113,9 +129,14 @@
             "foreground": "var(cyan)"
         },
         {
-            "name": "Strings, Inherited Class",
-            "scope": "string, constant.other.symbol, entity.other.inherited-class",
+            "name": "String",
+            "scope": "string",
             "foreground": "var(green)"
+        },
+        {
+            "name": "Inherited Class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(yellow)"
         },
         {
             "name": "Integers",
@@ -165,7 +186,7 @@
         {
             "name": "Headings",
             "scope": "markup.heading punctuation.definition.heading, entity.name.section",
-            "foreground": "var(blue)"
+            "foreground": "var(red)"
         },
         {
             "name": "Units",
@@ -174,13 +195,25 @@
         },
         {
             "name": "Bold",
-            "scope": "markup.bold, punctuation.definition.bold",
+            "scope": "markup.bold",
+            "font_style": "bold",
             "foreground": "var(orange)"
         },
         {
             "name": "Italic",
-            "scope": "markup.italic, punctuation.definition.italic",
+            "scope": "markup.italic",
+            "font_style": "italic",
             "foreground": "var(pink)"
+        },
+        {
+            "name": "Bold/Italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "bold italic",
+        },
+        {
+            "name": "Bold/Italic Punctuation",
+            "scope": "punctuation.definition.bold, punctuation.definition.italic",
+            "foreground": "var(white)"
         },
         {
             "name": "Code",
@@ -188,30 +221,35 @@
             "foreground": "var(green)"
         },
         {
-            "name": "Link Text",
-            "scope": "string.other.link, punctuation.definition.string.end.markdown",
-            "foreground": "var(red)"
-        },
-        {
             "name": "Link Url",
             "scope": "meta.link",
-            "foreground": "var(orange)"
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Link Url Punctuation",
+            "scope": "meta.link punctuation.definition",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "markup links",
+            "scope": "string.other.link, markup.underline.link",
+            "foreground": "var(cyan)",
+            "font_style": "underline"
         },
         {
             "name": "Lists",
-            "scope": "markup.list",
+            "scope": "markup.list.numbered.bullet | markup.list.unnumbered.bullet",
             "foreground": "var(red)"
         },
         {
             "name": "Quotes",
             "scope": "markup.quote",
-            "foreground": "var(orange)"
+            "foreground": "var(light_grey)"
         },
         {
             "name": "Separator",
             "scope": "meta.separator",
-            "foreground": "var(white)",
-            "background": "var(grey)"
+            "foreground": "var(light_grey)"
         },
         {
             "name": "diff:Inserted",
@@ -275,7 +313,7 @@
         {
             "name": "Javascript Dollar",
             "scope": "variable.other.dollar.only.js, variable.other.object.dollar.only.js, variable.type.dollar.only.js, support.class.dollar.only.js",
-            "foreground": "var(white)"
+            "foreground": "var(blue)"
         },
         {
             "name": "Python logical keyword",
@@ -310,11 +348,6 @@
         {
             "name": "Laravel Blade Tag",
             "scope": "text.html.blade entity.name.tag.blade",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Laravel Blade Tag",
-            "scope": "support.function, constant.other.inline-data.html",
             "foreground": "var(green)"
         },
         {

@@ -1,0 +1,64 @@
+TwoDark v1.2.2 is here!
+
+This version migrate to `sublime-color-scheme` format! Head over to your
+preferences and make the following changes:
+
+	{
+	  "theme": "TwoDark.sublime-theme",
+	  "color_scheme": "Packages/Theme - TwoDark/TwoDark.sublime-color-scheme",
+	  "draw_shadows": false,
+	  "highlight_modified_tabs": true,
+	  "caret_extra_width": 1,
+	  "caret_style": "smooth",
+	  "highlight_line": true
+	}
+
+TwoDark Changelog
+==================
+
+## [1.2.3] 2021-06-04
+
+### Fix
+* Fix an issue with the graphic resolution that showed some artifacts on windows.
+
+### Polish
+* Refine the color scheme.
+* Update the tab close icon.
+
+## [1.2.2] 2021-06-03
+
+### Fix
+* Fix laravel blade template syntax
+
+## [1.2.1] 2021-06-03
+
+### Enhancement
+* All rules are now updated to `sublime-color-scheme`.
+* Slightly lighten minimap color.
+
+### Internal
+* Update installation information.
+
+## [1.2.0] 2021-06-03
+
+### Enhancement
+
+* Convert color theme to `sublime-color-scheme`.
+* Add @3x retina icons resolution.
+
+### BugFix
+
+* Fix Sidebar icons color.
+
+## [1.1.1] 2016-12-08
+
+### Enhancement
+
+* Scrollbars background color has been darkened to match the general ui palette.
+
+## [1.1.0] 2016-12-08
+
+### Enhancement
+
+* Add Scrollbars (Whoa, magical!)
+* Support for 'Skins' plugin.

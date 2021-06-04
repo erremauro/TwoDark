@@ -50,6 +50,7 @@ preferences. (or <kbd>⌘</kbd><kbd>,</kbd> on Mac)
   "highlight_modified_tabs": true,
   "caret_extra_width": 1,
   "caret_style": "smooth",
+  "highlight_line": true
 }
 ```
 
