@@ -7,12 +7,18 @@ This change log adheres to standards from [Keep a CHANGELOG].
 [Semantic Versioning]: http://semver.org/
 [Keep a CHANGELOG]: http://keepachangelog.com
 
+## [Unreleased]
+
+### :nail_care: Polish
+* Refine Javascript spefic color scheme
+* Refine Python specific color scheme
+
 ## [1.2.3] 2021-06-04
 
-### Fix
+### :bug: BugFix
 * Fix an issue with the graphic resolution that showed some artifacts on windows.
 
-### Polish
+### :nail_care: Polish
 * Refine the color scheme.
 * Update the tab close icon.
 

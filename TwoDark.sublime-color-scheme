@@ -59,7 +59,7 @@
         },
         {
             "name": "Comment",
-            "scope": "comment, punctuation.definition.comment",
+            "scope": "comment, punctuation.definition.comment, entity.other.attribute-name.documentation",
             "foreground": "var(light_grey)",
             "font_style": "italic"
         },
@@ -86,6 +86,11 @@
         {
             "name": "Member Variable",
             "scope": "variable.member",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Language Variable",
+            "scope": "variable.language",
             "foreground": "var(red)"
         },
         {
@@ -126,7 +131,7 @@
         {
             "name": "Support",
             "scope": "support.function",
-            "foreground": "var(cyan)"
+            "foreground": "var(blue)"
         },
         {
             "name": "String",
@@ -310,55 +315,47 @@
             "background": "var(mocha)",
             "foreground": "var(darker_grey)"
         },
+        // Javascript specific color scheme
         {
             "name": "Javascript Dollar",
             "scope": "variable.other.dollar.only.js, variable.other.object.dollar.only.js, variable.type.dollar.only.js, support.class.dollar.only.js",
             "foreground": "var(blue)"
         },
         {
-            "name": "Python logical keyword",
-            "scope": "source.python keyword.operator.logical.python",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "Python function parameter",
-            "scope": "meta.function-call.python, meta.function.parameters.python, variable.parameter.function.python",
+            "name": "Javascript Constant",
+            "scope": "support.constant.builtin",
             "foreground": "var(orange)"
         },
         {
-            "name": "Python class begin",
-            "scope": "source.python meta.class.python punctuation.definition.inheritance.begin.python",
-            "foreground": "var(orange)"
+            "name": "Node Constant",
+            "scope": "support.constant.node.js",
+            "foreground": "var(red)"
         },
         {
-            "name": "Python class end",
-            "scope": "source.python meta.class.python punctuation.definition.inheritance.end.python",
-            "foreground": "var(orange)"
+            "name": "Javascript Builtin Function",
+            "scope": "support.function.dom, support.function.node",
+            "foreground": "var(cyan)"
         },
+        // Python specific color scheme
         {
-            "name": "Javascript meta constant",
-            "scope": "source.js meta.function.js support.constant.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "Laravel Blade Punctuation Begin",
-            "scope": "text.blade punctuation.section.embedded.begin.blade, text.blade punctuation.section.embedded.end.blade",
+            "name": "Python Builtin Function",
+            "scope": "support.type.python, support.function.builtin.python",
             "foreground": "var(cyan)"
         },
         {
-            "name": "Laravel Blade Tag",
-            "scope": "text.html.blade entity.name.tag.blade",
-            "foreground": "var(green)"
+            "name": "Python Function Call",
+            "scope": "meta.function-call.python",
+            "foreground": "var(white)"
         },
         {
-            "name": "Laravel Blade @",
-            "scope": "text.html.blade constant.other.inline-data.html",
-            "foreground": "var(pink)"
+            "name": "Python Function Brackets",
+            "scope": "meta.function.parameters.python punctuation.section.parameters.begin.python, meta.function.parameters.python punctuation.section.parameters.end.python",
+            "foreground": "var(white)"
         },
         {
-            "name": "Laravel Blade @",
-            "scope": "custom.compiler.blade.php support.function",
-            "foreground": "var(pink)"
+            "name": "Python Meta Decorator",
+            "scope": "meta.annotation.python",
+            "foreground": "var(blue)"
         }
     ]
 }
