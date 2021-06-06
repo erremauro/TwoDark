@@ -22,7 +22,7 @@
         "blue": "hsl(210, 73%, 68%)",
         "dark_blue": "hsl(222, 29%, 30%)",
         "cyan": "hsl(189, 39%, 59%)",
-        "yellow": "hsl(40, 94%, 68%)",
+        "yellow": "hsl(40, 59%, 70%)",
         "green": "hsl(90, 34%, 63%)",
         "mocha": "hsl(55, 5%, 43%)"
     },
@@ -356,6 +356,79 @@
             "name": "Python Meta Decorator",
             "scope": "meta.annotation.python",
             "foreground": "var(blue)"
+        },
+        // PHP specific color scheme
+        {
+            "name": "PHP Variable Dollar",
+            "scope": "punctuation.definition.variable.php",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "PHP Arrow Accessor",
+            "scope": "punctuation.accessor.arrow.php",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "PHP Variable",
+            "scope": "source.php variable",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "PHP Namespace Path",
+            "scope": "meta.namespace.php meta.path.php",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "PHP Namespace Path Separator",
+            "scope": "meta.path.php punctuation.separator.namespace.php",
+            "foreground": "var(white)"
+        },
+        // Bash specific color scheme
+        {
+            "name": "Bash Variable",
+            "scope": "variable.other.readwrite.shell",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Shebang constant",
+            "scope": "comment.line.shebang.shell constant.language.shebang.shell",
+            "foreground": "var(light_grey)"
+        },
+        {
+            "name": "Shell Double Bracket",
+            "scope": "support.function.double-brace.begin.shell, support.function.double-brace.end.shell, support.function.test.begin.shell, support.function.test.end.shell",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "Shell Function",
+            "scope": "support.function.echo.shell, support.function.set.shell",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Shell Tilde",
+            "scope": "variable.language.tilde.shell",
+            "foreground": "var(white)"
+        },
+        // SASS Specific syntax
+        {
+            "name": "Sass Property Name",
+            "scope": "support.type.property-name.css",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "Sass Variable",
+            "scope": "variable.declaration.sass, variable.other.sass",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Sass Selector",
+            "scope": "meta.selector.css",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Sass Ampersand",
+            "scope": "keyword.operator.ampersand.sass",
+            "foreground": "var(red)"
         }
     ]
 }

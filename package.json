@@ -1,7 +1,7 @@
 {
   "name": "TwoDark",
-  "version": "1.2.3",
-  "description": "It's like OneDark for Atom, but it's called TwoDark and works for SublimeText",
+  "version": "1.2.4",
+  "description": "Atom's OneDark inspired theme for Sublime Text",
   "author": "Roberto Mauro <erremauro@icloud.com>",
   "homepage": "https://github.com/erremauro/TwoDark#readme",
   "license": "MIT",

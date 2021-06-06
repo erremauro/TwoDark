@@ -1,13 +1,13 @@
 {
-	"TwoDark - Default":
-	{
-		"Preferences":
-		{
-			"color_scheme": "Packages/Theme - TwoDark/TwoDark.sublime-color-scheme",
-			"theme": "TwoDark.sublime-theme",
-			"draw_shadows": false,
-			"highlight_modified_tabs": true,
-			"caret_extra_width": 1
-		}
-	}
+    "TwoDark - Default": {
+        "Preferences": {
+            "theme": "TwoDark.sublime-theme",
+            "color_scheme": "Packages/Theme - TwoDark/TwoDark.sublime-color-scheme",
+            "draw_shadows": false,
+            "highlight_modified_tabs": true,
+            "caret_extra_width": 1,
+            "caret_style": "smooth",
+            "highlight_line": true
+        }
+    }
 }
