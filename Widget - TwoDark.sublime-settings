@@ -1,7 +1,8 @@
 {
     "color_scheme": "Packages/Theme - TwoDark/Widget - TwoDark.stTheme",
     "draw_shadows": false,
-    "caret_extra_width": 1,
     "highlight_modified_tabs": true,
+    "caret_extra_width": 1,
+    "caret_style": "smooth",
+    "highlight_line": true
 }
-

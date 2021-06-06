@@ -1,6 +1,6 @@
 # TwoDark
 
-Atom's OneDark-UI inspired theme for [Sublime Text][3].
+Atom's OneDark inspired theme for [Sublime Text][3].
 
 ## Why?
 

@@ -7,12 +7,21 @@ This change log adheres to standards from [Keep a CHANGELOG].
 [Semantic Versioning]: http://semver.org/
 [Keep a CHANGELOG]: http://keepachangelog.com
 
+## [1.2.4] 2021-06-07
+
+### :nail_care: Polish
+* Refine Javascript spefic color scheme
+* Refine Python specific color scheme
+* Refine PHP specific color scheme
+* Refine Bash specific color scheme
+* Refine Sass specific color scheme
+
 ## [1.2.3] 2021-06-04
 
-### Fix
+### :bug: BugFix
 * Fix an issue with the graphic resolution that showed some artifacts on windows.
 
-### Polish
+### :nail_care: Polish
 * Refine the color scheme.
 * Update the tab close icon.
 
@@ -60,6 +69,8 @@ This change log adheres to standards from [Keep a CHANGELOG].
 * Add Scrollbars (Whoa, magical!)
 * Support for 'Skins' plugin.
 
+[1.2.4]: https://github.com/erremauro/TwoDark/compare/v1.2.3...v1.2.4
+[1.2.3]: https://github.com/erremauro/TwoDark/compare/v1.2.2...v1.2.3
 [1.2.2]: https://github.com/erremauro/TwoDark/compare/v1.2.1...v1.2.2
 [1.2.1]: https://github.com/erremauro/TwoDark/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/erremauro/TwoDark/compare/v1.1.2...v1.2.0
@@ -67,4 +78,3 @@ This change log adheres to standards from [Keep a CHANGELOG].
 [1.1.1]: https://github.com/erremauro/TwoDark/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/erremauro/TwoDark/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/erremauro/TwoDark/releases/tag/v1.0.0
-
